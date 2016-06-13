@@ -10,9 +10,10 @@
   * Input: var bahamas
   * Output: ('Bahamas', ['Nassau', 'Fort Fincastle', 'Parliamant Square'], 'June through August', 'You put the lime in the coconut')
 * Build html blueprint
-* Add click function to place names
-  * Input: user clicks bahamas
-  * Output: html displays Bahamas, Nassau, Fort Fincastle, Parliamant Square, June through August, You put the lime in the coconut
+* Add js to collect user Input
+* send user input to constructor function
+* print user output place name to a list
+* make places in place list clickable so that they show additional information
 
 
 ## Known Bugs
