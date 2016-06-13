@@ -17,27 +17,25 @@
           <h2>Add a place:</h2>
           <form id='placeForm'>
             <div class="form-group">
-              <div id="place">
-                  <label for="place">Place</label>
-                  <input type="text" class="form-control">
-              </div>
-              <div id="landmarks">
-                  <label for="landmarks">landmarks</label>
-                  <input type="text" class="form-control">
-              </div>
-              <div id="time">
-                <label for="time">time of year</label>
-                <input type="text" class="form-control">
-              </div>
-              <div id="notes">
-                <label for="notes">additional notes</label>
-                <input type="text" class="form-control">
-              </div>
-              <button type="submit" class="btn btn-info">Submit</button>
+              <label for="place">Place</label>
+              <input type="text" class="form-control" id="place">
             </div>
+            <div class="form-group">
+              <label for="landmarks">landmarks</label>
+              <input type="text" class="form-control" id="landmarks">
+            </div>
+            <div class="form-group">
+              <label for="time">time of year</label>
+              <input type="text" class="form-control" id="time">
+            </div>
+            <div class="form-group">
+              <label for="notes">additional notes</label>
+              <input type="text" class="form-control" id="notes">
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
           </form>
           <div>
-            <ul id='placeList'>              
+            <ul id='placeList'>
             </ul>
           </div>
         </div>

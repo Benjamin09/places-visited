@@ -12,7 +12,8 @@
 * Build html blueprint
 * Add js to collect user Input
 * send user input to constructor function
-* print user output place name to a list
+* print user place name to a html list
+* print user input to a detailed section
 * make places in place list clickable so that they show additional information
 
 
